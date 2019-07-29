@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{82891dfa-bbea-44fa-b3c3-eb3b81b95786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{632324ea-b366-4764-9e0a-e630d204f009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Maingame">
+      <UniqueIdentifier>{6676e2ce-6b58-4d21-a7e4-2b666bf4e144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{c48bf8de-4daa-4057-b490-9495efbd2c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Player">
+      <UniqueIdentifier>{5d2ac3d9-109a-420e-8be4-c6122ac43e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Bullet">
+      <UniqueIdentifier>{c75c9d60-7564-410e-836c-d505201d2de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Monster">
+      <UniqueIdentifier>{40f4ace4-8ce7-4964-857c-a3cdda14f474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers">
+      <UniqueIdentifier>{4907189a-697e-452c-8888-2996776fc849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\00.AbstractFactory">
+      <UniqueIdentifier>{2e27d6ec-ac81-468e-a5c6-735abbd8e968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\01.CollsionMgr">
+      <UniqueIdentifier>{512ec8eb-a49e-4423-a5db-8a02875ae997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\02.KeyMgr">
+      <UniqueIdentifier>{4ebfb783-768f-4885-9bf9-b48196dd3f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Shield">
+      <UniqueIdentifier>{3f8fc740-1eb6-4c31-885f-7d0f394feafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\03.ObjectMgr">
+      <UniqueIdentifier>{0dd4f7dd-d5e2-4049-86bc-e992ad1b45c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Mouse">
+      <UniqueIdentifier>{159bfedd-dacb-4224-846d-d22def491721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.GuideBullet">
+      <UniqueIdentifier>{eec34c9e-a8b2-4d38-935d-a91a71c898d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.BackGround">
+      <UniqueIdentifier>{5fb090ad-614f-4c2e-a90c-fccb2a7b6f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Managers\04.ScrollMgr">
+      <UniqueIdentifier>{f675c7f4-ec83-482c-bf3f-67b064a8cd00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework99C.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Maingame.h">
+      <Filter>00.Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Extern.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01.GameObject\01.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Typedef.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>97.Managers\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollsionMgr.h">
+      <Filter>97.Managers\01.CollsionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>97.Managers\02.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01.GameObject\03.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>97.Managers\03.ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.GameObject\04.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideBullet.h">
+      <Filter>01.GameObject\05.GuideBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>01.GameObject\06.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>97.Managers\04.ScrollMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework99C.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Maingame.cpp">
+      <Filter>00.Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01.GameObject\01.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CollsionMgr.cpp">
+      <Filter>97.Managers\01.CollsionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>97.Managers\02.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01.GameObject\03.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>97.Managers\03.ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.GameObject\04.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideBullet.cpp">
+      <Filter>01.GameObject\05.GuideBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>01.GameObject\06.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>97.Managers\04.ScrollMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Framework99C.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Framework99C.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
